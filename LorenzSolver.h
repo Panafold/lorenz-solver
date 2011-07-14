@@ -26,9 +26,12 @@
 #ifndef _LORENZSOLVER_H_
 #define _LORENZSOLVER_H_
 
+//////////////////
+//Include something here that provides an implementation of Vec3f
+//(using cinder here)
 #include "cinder/app/AppBasic.h"
 using namespace ci;
-
+//////////////////
 
 // Computes numerical solutions to the Lorenz diff eq. using the Runge-Kutta method.
 class LorenzSolver{
