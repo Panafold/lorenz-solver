@@ -10,9 +10,9 @@ Note that you'll need an implementation of the Vec3f class. In the current code,
 
 Typically, you will use the class in a way similar to this:
 
-``
-LorenzSolver lorenzSolver= LorenzSolver(); //initialize the class
-Vec3f p = Vec3f(0,10,0); //define the point's position at time t
-lorenzSolver.setDelta(0.01f); //set the delta
-lorenzSolver.computePoint(p); //compute the position of the point at time t+delta
-``
+
+	LorenzSolver lorenzSolver= LorenzSolver(); //initialize the class
+	Vec3f p = Vec3f(0,10,0); //define the point's position at time t
+	lorenzSolver.setDelta(0.01f); //set the delta
+	lorenzSolver.computePoint(p); //compute the position of the point at time t+delta
+
